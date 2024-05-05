@@ -1,0 +1,12 @@
+{
+  "name": "app-esm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "say": "node index.js"
+  },
+  "dependencies": {
+    "package-esm": "workspace:^"
+  }
+}
