@@ -1,0 +1,17 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  apps/app-cjs:
+    dependencies:
+      package-cjs:
+        specifier: workspace:^
+        version: link:../../packages/pckage-cjs
+
+  packages/pckage-cjs: {}

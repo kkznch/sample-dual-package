@@ -1,0 +1,12 @@
+{
+  "name": "app-cjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "say": "node index.js"
+  },
+  "dependencies": {
+    "package-cjs": "workspace:^"
+  }
+}
