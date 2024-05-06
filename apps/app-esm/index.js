@@ -1,3 +1,6 @@
-import { say } from 'package-esm';
+import { say as sayFromEsm } from 'package-esm';
+import { say as sayFromDual } from 'package-dual';
 
-say();
+console.log('This is from app-esm');
+sayFromEsm();
+sayFromDual();
