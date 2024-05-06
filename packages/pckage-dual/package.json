@@ -1,0 +1,16 @@
+{
+  "name": "package-dual",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "build:cjs": "node esbuild.cjs.mjs",
+    "build:esm": "node esbuild.esm.mjs",
+    "build": "pnpm clean && pnpm run build:cjs && pnpm run build:esm"
+  },
+  "dependencies": {
+    "esbuild": "^0.20.2",
+    "rimraf": "^5.0.5"
+  }
+}
