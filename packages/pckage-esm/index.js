@@ -1,3 +1,3 @@
 export const say = () => {
-  console.log('This is from package-esm');
+  console.log('Hello, world! from package-esm');
 };

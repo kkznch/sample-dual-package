@@ -1,5 +1,5 @@
 const say = () => {
-  console.log('This is from package-cjs');
+  console.log('Hello, world! from package-cjs');
 };
 
 exports.say = say;

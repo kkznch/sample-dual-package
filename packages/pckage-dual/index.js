@@ -1,3 +1,3 @@
 export const say = () => {
-  console.log('This is from package-dual');
+  console.log('Hello, world! from package-dual');
 };
