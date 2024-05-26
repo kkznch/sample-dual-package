@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "package-cjs": "workspace:^",
-    "package-dual": "workspace:^"
+    "package-dual": "workspace:^",
+    "package-esm": "workspace:^"
   }
 }

@@ -16,6 +16,9 @@ importers:
       package-dual:
         specifier: workspace:^
         version: link:../../packages/package-dual
+      package-esm:
+        specifier: workspace:^
+        version: link:../../packages/package-esm
 
   apps/app-esm:
     dependencies:
