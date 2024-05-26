@@ -7,6 +7,7 @@
     "say": "node index.js"
   },
   "dependencies": {
+    "package-cjs": "workspace:^",
     "package-dual": "workspace:^",
     "package-esm": "workspace:^"
   }

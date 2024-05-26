@@ -12,23 +12,26 @@ importers:
     dependencies:
       package-cjs:
         specifier: workspace:^
-        version: link:../../packages/pckage-cjs
+        version: link:../../packages/package-cjs
       package-dual:
         specifier: workspace:^
-        version: link:../../packages/pckage-dual
+        version: link:../../packages/package-dual
 
   apps/app-esm:
     dependencies:
+      package-cjs:
+        specifier: workspace:^
+        version: link:../../packages/package-cjs
       package-dual:
         specifier: workspace:^
-        version: link:../../packages/pckage-dual
+        version: link:../../packages/package-dual
       package-esm:
         specifier: workspace:^
-        version: link:../../packages/pckage-esm
+        version: link:../../packages/package-esm
 
-  packages/pckage-cjs: {}
+  packages/package-cjs: {}
 
-  packages/pckage-dual:
+  packages/package-dual:
     dependencies:
       esbuild:
         specifier: ^0.20.2
@@ -37,7 +40,7 @@ importers:
         specifier: ^5.0.5
         version: 5.0.5
 
-  packages/pckage-esm: {}
+  packages/package-esm: {}
 
 packages:
 
